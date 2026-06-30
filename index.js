@@ -12,7 +12,7 @@ const {
 } = require("discord.js");
 
 const config = require("./config");
-const { handleCreateBag, handleBagButtonInteraction, CATEGORY_ID } = require("./commands/bag-handler");
+const { handleCreateBag, handleBagButtonInteraction, CATEGORY_ID } = require("./    bag-handler");
 
 const client = new Client({
     intents: [
